@@ -1,0 +1,5 @@
+# Gradient descent 公式,update w and b
+# alpha:learning rate
+# dJ(w,b)/dw在w方向上的斜率，同理 dJ(w,b)/db 在b方向上的斜率
+w:=w-alpha*(dJ(w,b)/dw)
+b:=b-alpha*(dJ(w,b)/db)
