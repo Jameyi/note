@@ -1,0 +1,2 @@
+# 替换字符串，把字符串shiyanlou替换为tensorgo
+%s/shiyanlou/tensorgo/g 
