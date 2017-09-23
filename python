@@ -1,6 +1,6 @@
 # 碰到安装的模块无法import
 cd ~/miniconda2/lib/python2.7/site-packages
-# 路径可以进入python IDE，然后import sys;sys.path查看
+# 上述路径可以进入python IDE，然后import sys;sys.path查看
 vim xxx.pth
     /usr/lib/python2.7
     /usr/lib/python2.7/plat-linux2
