@@ -7,3 +7,16 @@ updatedb
 locate
 
 # 关于启动，网上搜索"几种设置树莓派开机自启的方法"简书
+
+# ubuntu启动 http://blog.csdn.net/heqiyu34/article/details/18793885
+# /etc/init/rc-sysinit.conf,/etc/init/lightdm.conf
+su root
+vim /etc/init/lightdm.conf
+  # 注释掉原来的
+  start on (filesystem
+  and started dbus
+  and (graphics-device-added fb0 PRIMARY_DEVICE_FOR_DISPLAY=1
+  or drm-device-added card0 PRIMARY_DEVICE_FOR_DISPLAY=1
+  or stopped udevtrigger)
+  and runlevel [345])
+  stop on runlevel [0126]
