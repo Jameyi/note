@@ -9,3 +9,7 @@ https://searchcode.com/codesearch/view/32983327/
  
 # Python 之 使用Tkinter 做GUI 研究机器人走迷宫
 http://blog.csdn.net/songrotek/article/details/48023301
+
+# tkinter tutoriers
+http://effbot.org/tkinterbook/canvas.htm
+http://blog.csdn.net/u014380159/article/details/51941842
