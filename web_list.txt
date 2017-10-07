@@ -13,3 +13,6 @@ http://blog.csdn.net/songrotek/article/details/48023301
 # tkinter tutoriers
 http://effbot.org/tkinterbook/canvas.htm
 http://blog.csdn.net/u014380159/article/details/51941842
+
+# 什么是比特币的51%攻击？51%攻击解析
+http://www.bitcoin86.com/news/4155.html
