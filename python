@@ -13,3 +13,12 @@ vim xxx.pth
     /usr/lib/python2.7/dist-packages/PIL
     /usr/lib/pymodules/python2.7
     
+# 安装tkinter
+sudo apt-get install python-tk
+sudo apt-get install python-imaging-tk
+
+# 安装requests
+sudo pip install requests
+
+# 安装pip
+sudo apt-get install python-pip
