@@ -20,3 +20,12 @@ vim /etc/init/lightdm.conf
   or stopped udevtrigger)
   and runlevel [345])
   stop on runlevel [0126]
+  
+# 建立软链接
+ln -s 源文件 目标文件
+# 例如：ln -s /bin/less /usr/local/bin/less
+# 通过实验加深理解
+[oracle@Linux]$ vim test.log                         #创建一个测试文件f1
+[oracle@Linux]$ ln test.log test1.log           #创建f1的一个硬连接文件test1.log
+[oracle@Linux]$ ln -s test.log test2.log       #创建f1的一个符号连接文件test2.log
+[oracle@Linux]$ ls -li                                 # -i参数显示文件的inode节点信息
