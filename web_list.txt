@@ -20,3 +20,7 @@ http://www.3d66.com/softhtml/downsoft_100.html
 # blockchain
 http://www.linuxidc.com/Linux/2017-04/142918.htm
 http://blog.csdn.net/sportshark/article/details/52351415
+ 
+#  PwnPi
+https://sourceforge.net/projects/pwnpi/?source=typ_redirect
+https://www.92aq.com/2016/01/16/raspberry-pwn-kit.html
