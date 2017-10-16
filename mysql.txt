@@ -1,0 +1,64 @@
+#运行/检查是否安装了 MySQL
+sudo service mysql start
+
+#安装 MySQL 服务端、核心程序
+sudo apt-get install mysql-server
+
+#安装 MySQL 客户端
+sudo apt-get install mysql-client
+
+#安装结束后，用命令验证是否安装并启动成功：
+sudo netstat -tap | grep mysql
+
+#gedit 修改 MySQL 的配置文件（my.cnf）
+sudo gedit /etc/mysql/my.cnf
+
+# 启动 MySQL 服务
+sudo service mysql start             
+
+# 使用 root 用户登录，实验楼环境的密码为空，直接回车就可以登录
+mysql -u root
+
+#查看有哪些数据库（注意不要漏掉分号 ;）：
+show databases;
+
+#连接其中一个数据库
+use <数据库名>
+
+#查看表（注意不要漏掉“;”）
+show tables;
+
+#命令 quit 或者 exit 退出 MySQL。
+quit
+
+#创建一个数据库（注意不要漏掉分号 ;）
+CREATE DATABASE <数据库名字>;
+
+#新建一张表
+CREATE TABLE 表的名字
+(
+列名a 数据类型(数据长度),
+列名b 数据类型(数据长度)，
+列名c 数据类型(数据长度)
+);
+
+CREATE TABLE department
+->(
+->dpt_name CHAR(20),
+->dpt_phone INT(12)
+->);
+
+#查看表中的内容
+SELECT * FROM 表名;
+SELECT * FROM employee;
+
+#向表中插入数据
+INSERT INTO 表的名字(列名a,列名b,列名c) VALUES(值1,值2,值3);
+
+INSERT INTO employee(id,name,phone) VALUES(01,'Tom',110110110);
+INSERT INTO employee VALUES(02,'Jack',119119119);
+INSERT INTO employee(id,name) VALUES(03,'Rose');
+
+#删除已建立的数据库
+DROP DATABASE 数据库名;
+DROP DATABASE mysql_shiyan;
