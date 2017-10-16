@@ -62,3 +62,27 @@ INSERT INTO employee(id,name) VALUES(03,'Rose');
 #删除已建立的数据库
 DROP DATABASE 数据库名;
 DROP DATABASE mysql_shiyan;
+#######################################################################
+## 安装mysql  ## password:jameyi
+
+sudo apt-get update --fix -missing
+sudo apt-get install mysql-server
+
+## 进入mysql password:jameyi ## 
+mysql -u root -p
+
+## 建立数据库
+mysql> CREATE DATABASE securities_master
+
+## 使用数据库
+mysql> USE securities_master
+
+## 建立数据表
+mysql> CREATE TABLE exchange(
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+
+## python同数据库连接
+sudo apt-get install libmysqlclient-dev
+sudo pip install mysqlclient
+
+
