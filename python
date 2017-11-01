@@ -28,3 +28,8 @@ conda create --name python35 python=3.5
 source activate python35    # 使用
 source deactivate python35  # 不使用 
 
+# 安装pandas_datareader
+1.conda install -c https://conda.anaconda.org/anaconda pandas-datareader
+2.py file
+    from pandas_datareader.data as web
+    
