@@ -29,3 +29,6 @@ http://fisherworks.cn/?p=1792 # 让树莓派用上移动LTE | RaspberryPi Connec
 
 # 清华镜像网站
 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+ 
+# VirtualBox 中linux虚拟机 挂载额外硬盘的方法
+http://blog.csdn.net/achang21/article/details/18407833
