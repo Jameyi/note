@@ -25,6 +25,7 @@ http://blog.csdn.net/sportshark/article/details/52351415
 #  PwnPi
 https://sourceforge.net/projects/pwnpi/?source=typ_redirect
 https://www.92aq.com/2016/01/16/raspberry-pwn-kit.html
+http://fisherworks.cn/?p=1792 # 让树莓派用上移动LTE | RaspberryPi Connect TD LTE
 
 # 清华镜像网站
 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
