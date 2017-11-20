@@ -84,5 +84,27 @@ mysql> CREATE TABLE exchange(
 ## python同数据库连接
 sudo apt-get install libmysqlclient-dev
 sudo pip install mysqlclient
+==============================================================================================
+symbol 基金简称 有
+exchange 交易所 
+listed_date 基金上市日期 有 datetime
+order_book_id  基金代码 有 varchar(6)
+round_lot 一手对应多少股，基金100 自己定义
+status 合约状态(正常上市，终止上市，暂停上市，发行失败）
+management 基金经理 varchar(10)
 
-
+open 开盘价 有
+close 收盘价 有
+high 最高价 有
+low 最低价 有
+limit_up 涨停价 有
+limit_down 跌停价 有
+total_turnover 总成交额
+volume 总成交量
+acc_net_value 累计净值 有
+unit_net_value 单位净值 有 
+discount_rate 折价率 有
+settlement 结算价 
+prev_settlement 昨日结算价
+open_interest 累计持仓量
+type 合约类型（etf,lof,fenjia,fenjib...） 有
