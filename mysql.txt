@@ -79,6 +79,8 @@ CREATE INDEX 索引名 ON 表名字 (列名);
 # 创建视图（虚拟表）
 CREATE VIEW 视图名(列a,列b,列c) AS SELECT 列1,列2,列3 FROM 表名字;
 
+# 显示mysql用户
+SELECT USER();
 
 #查看表中的内容
 SELECT * FROM 表名;
