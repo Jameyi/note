@@ -71,6 +71,11 @@ UPDATE employee SET age=21 salary=3000 WHERE name='TOM';
 DELETE FROM 表名字 WHERE 条件;
 DELETE FROM employee WHERE name='TOM';
 
+# 建立索引
+ALTER TABLE 表名字 ADD INDEX 索引名 (列名); 
+CREATE INDEX 索引名 ON 表名字 (列名);
+例子：ALTER TABLE employee ADD INDEX idx_id (id); 
+
 #查看表中的内容
 SELECT * FROM 表名;
 SELECT * FROM employee;
