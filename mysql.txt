@@ -60,6 +60,9 @@ drop TABLE 表的名字;
 ALTER TABLE 表名字 ADD COLUMN 列名字 数据类型 约束; 或： ALTER TABLE 表名字 ADD 列名字 数据类型 约束;
 ALTER TABLE employee ADD COLUMN height INT(4) DEFAULT 170; AFTER age #(可选，指定列位置在age之后)/FIRST # 放在第一列
 
+# 修改字段
+ALTER TABLE 表名字 MODIFY COLUMN 列名字 数据类型;
+
 #删除一列
 ALTER TABLE 表名字 DROP COLUMN 列名字; 或： ALTER TABLE 表名字 DROP 列名字;
 
